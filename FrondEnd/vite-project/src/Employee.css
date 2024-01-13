@@ -1,0 +1,34 @@
+/* Add this CSS to your stylesheets or within your component */
+
+.employeeList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .employeeCard {
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 200px;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+
+  }
+  .delete{
+    background: #b70e0e;
+    color: #fcf9f9;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  .edit{
+    background: #a3b70e;
+    color: #fcf9f9;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  
+  /* Add more styling as needed */
+  
